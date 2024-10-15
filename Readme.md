@@ -10,15 +10,15 @@ Key components of the analysis include **customer segmentation**, **loyalty scor
 
 ## Installation and Setup
 
-1. Clone the repository - [Credit Card Transactions Dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset/data)
+1. Clone the repository - [SSH Link](git@github.com:asifsemail/project1.git)
 2. Install the required packages by running the following:
 
     ```bash
     pip install pandas matplotlib seaborn numpy geopandas hvplot plotly
     ```
 
-3. Download the dataset and place it in the project root directory.
-4. Run the Jupyter Notebook `analysis_script.ipynb` to execute the analysis and generate visualizations.
+3. Download the dataset and place it in the project root director - [Credit Card Transactions Dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset/data)
+4. Run the Jupyter Notebooks `ak_cc_analysis.ipynb`, `age_jbrooks.ipynb`, `CorrelationAnalysis.ipynb`, `fraudforcasting.ipynb`, `merchant.ipynb`, and `analyzer.ipynb` to execute the analysis and generate visualizations.
 
 ---
 
@@ -48,27 +48,47 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
   - Customer loyalty by state
   - Customer loyalty by age group
   - Customer loyalty by job category
+- **Files**:
+    - ak_cc_analysis.ipynb
+    - Resources Folder
+    - AK_Output Folder
 
 ### 2. Spending Behavior by Merchants (Amit)
 
 - **Goal**: Identify spending trends by merchant categories and transaction volume across different merchant types.
 - **Insights**: Visualization of high-value merchants and seasonal spending patterns.
+- **Files**:
+    - merchant.ipynb
+    - merchant-graphs.py
+    - graphs Folder
 
 ### 3. Age Segment Analysis (Jason)
 
 - **Focus Areas**:
   - **Travel Purchases**: Spending patterns on travel across age groups.
   - **Frauds**: Fraud analysis, showing trends by age group and frequency of fraud incidents.
+- **Files**:
+    - age_jbrooks.ipynb
+    - jbrooks_plots_charts Folder
 
 ### 4. Fraud Analysis & Forecasting (Kade)
 
 - **Goal**: To detect fraud and forecast potential fraud occurrences based on historical trends.
 - **Method**: Monthly and weekly fraud forecasting using time series analysis.
+- **Files**:
+    - fraudforcasting.ipynb
+    - CorrelationAnalysis.ipynb
+    - CA2.ipynb
+    - kade_output_file.zip Folder
 
 ### 5. Lifetime Value (LTV) Forecasting (Simran)
 
 - **Goal**: Predict the customer lifetime value (LTV) and identify the top 25% of high-value customers.
 - **Methodology**: LTV was calculated based on a weighted equation suming the total transactions, total spend, and total recent transactions. This was then used to create future projections.
+- **Files**:
+    - analyzer.ipynb
+    - SpenderlyticsApp Folder
+    - figsfolder Folder
 
 ---
 

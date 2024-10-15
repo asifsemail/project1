@@ -94,19 +94,21 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
 
 ## Visualizations
 
-Various visualizations were created throughout the project, and all visual outputs are saved as `.png` files in the `AK_Output` directory. Key visualizations include:
+Various visualizations were created throughout the project, and all visual outputs are saved as `.png` files in multiple folders:  `AK_Output`, `graphs`, `jbrooks_plots_charts`, `kade_output_file.zip`, and `figsfolder`. Key visualizations include:
 
 - **Monthly Transaction Trends**: Time series of total monthly transaction amounts.
 - **Customer Loyalty by State**: Bar plots showing loyalty score by state.
 - **Spending Patterns by Age Group**: Heatmaps showing transaction amounts by age group and time of day.
 - **Fraud Forecasting**: Monthly and weekly fraud trends, highlighting high-risk periods.
 - **Loyalty Segments by Job Category**: Stacked bar charts showing loyalty segments by job category.
+- **LTV Forecast**: Using multiple forecasting models.
 
 ---
 
 ## Limitations
 
 - **.py file**: The UI demonstration in the Spenderlytics App folder is specific to this project and file.
+- **Fraud Forecasting Accuracy**: Further improvement could be made by integrating more advanced machine learning models for better fraud detection accuracy.
 
 ---
 
@@ -124,11 +126,11 @@ Various visualizations were created throughout the project, and all visual outpu
 
 This project was conducted by the following team members:
 
-- **Asif Khan** - Project Manager
-- **Jason Brooks** - Data Analyst
-- **Simranpreet Saini** - Data Analyst
-- **Amit Gaikwad** - Data Analyst
-- **Kade Thomas** - Data Analyst
+- **Asif Khan** - Project Manager, Customer Loyalty Analysis Lead
+- **Jason Brooks** - Data Analyst, Age Segment Analysis Lead
+- **Simranpreet Saini** - Data Analyst, LTV Forecasting Lead
+- **Amit Gaikwad** - Data Analyst, Spending Behavior by Merchants Lead
+- **Kade Thomas** - Data Analyst, Fraud Analysis & Forecasting Lead
 
 ---
 

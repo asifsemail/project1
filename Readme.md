@@ -44,6 +44,18 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
 
 - **Goal**: To assess customer loyalty by grouping users based on transaction frequency, recency, and spending habits.
 - **Approach**: Customers were segmented into four categories: `Very Loyal`, `Loyal`, `At Risk`, and `Inactive`.
+- **Method**: Customer loyalty was calculated by analyzing three key metrics for each customer: **transaction frequency**, **recency of transactions**, and **average spending**. These metrics were computed from the transaction data and then used to classify customers into loyalty segments.
+
+1. **Frequency**: The number of transactions a customer made, segmented into `Low`, `Moderate`, `High`, and `Very High Frequency`.
+2. **Recency**: The number of days since the last transaction, classified into `Very Recent`, `Recent`, `Not Recent`, and `Stale`.
+3. **Spending Behavior**: The average amount spent per transaction, categorized as `Low Spender`, `Moderate Spender`, `High Spender`, or `Very High Spender`.
+
+Using these classifications, customers were grouped into four loyalty segments:
+- **Very Loyal**: Customers with very recent activity and high transaction frequency.
+- **Loyal**: Customers with recent activity and moderate to high transaction frequency.
+- **At Risk**: Customers with not recent or stale activity and low transaction frequency.
+- **Inactive**: Customers with no recent transactions and low frequency.
+
 - **Visuals**:
   - Customer loyalty by state
   - Customer loyalty by age group

@@ -60,7 +60,7 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
 ### 5. Lifetime Value (LTV) Forecasting (Simran)
 
 - **Goal**: Predict the customer lifetime value (LTV) and identify the top 25% of high-value customers.
-- **Methodology**: LTV was calculated based on total spend and projected future spending patterns.
+- **Methodology**: LTV was calculated based on a weighted equation suming the total transactions, total spend, and total recent transactions. This was then used to create future projections.
 
 ---
 
@@ -78,7 +78,7 @@ Various visualizations were created throughout the project, and all visual outpu
 
 ## Limitations
 
-- **.py file**: The .py file is specific to this project
+- **.py file**: The UI demonstration in the Spenderlytics App folder is specific to this project and file.
 
 ---
 

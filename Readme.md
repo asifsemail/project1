@@ -1,5 +1,13 @@
 # Credit Card Spending Behavior Analysis
 
+## Project Overview
+
+This project analyzes credit card transaction data to gain insights into **customer loyalty**, **spending behavior**, and **fraud trends**. Our goal was to use data-driven insights to help credit card companies improve customer targeting, retention strategies, and fraud prevention. The analysis was conducted on 1.29M records spanning 983 unique credit card users over a 1.5-year period.
+
+Key components of the analysis include **customer segmentation**, **loyalty scoring**, **spending behavior analysis**, **fraud forecasting**, and **LTV (lifetime value) forecasting**.
+
+---
+
 ## Installation and Setup
 
 1. Clone the repository - [Credit Card Transactions Dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset/data)

@@ -18,7 +18,7 @@ Key components of the analysis include **customer segmentation**, **loyalty scor
     ```
 
 3. Download the dataset and place it in the project root director - [Credit Card Transactions Dataset](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset/data)
-4. Run the Jupyter Notebooks `ak_cc_analysis.ipynb`, `age_jbrooks.ipynb`, `CorrelationAnalysis.ipynb`, `fraudforcasting.ipynb`, `merchant.ipynb`, and `analyzer.ipynb` to execute the analysis and generate visualizations.
+4. Run the Jupyter Notebooks `ak_cc_analysis.ipynb`, `age_jbrooks.ipynb`, `KadeCorrelationAnalysis.ipynb`, `Kadefraudforcasting.ipynb`, `KadeCA2.ipynb`, `merchant.ipynb`, and `SimranAnalyzer.ipynb` to execute the analysis and generate visualizations.
 
 ---
 
@@ -106,9 +106,10 @@ Using these classifications, customers were grouped into four loyalty segments:
 - **Goal**: Predict the customer lifetime value (LTV) and identify the top 25% of high-value customers.
 - **Methodology**: LTV was calculated based on a weighted equation suming the total transactions, total spend, and total recent transactions. This was then used to create future projections.
 - **Files**:
-    - analyzer.ipynb
+    - SimranAnalyzer.ipynb
     - SpenderlyticsApp Folder
     - figsfolder Folder
+    - All_Graphs_Report.pdf
 
 ---
 

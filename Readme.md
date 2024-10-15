@@ -70,8 +70,17 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
 - **Files**:
     - age_jbrooks.ipynb
     - jbrooks_plots_charts Folder
+      
+### 4. Seasonal Marketing Analysis (Kade)
 
-### 4. Fraud Analysis & Forecasting (Kade)
+- **Goal**: To analyze average spending patterns by age group across different seasons and categories to tailor marketing strategies effectively.
+- **Method**: Aggregating spending data by age group for each season. Visualizing spending patterns with bar charts for easier comparison. Identifying age groups with higher spending in each season. Using insights to recommend seasonal marketing strategies aimed at age groups with the highest spending potential.
+- **Files**:
+    - CorrelationAnalysis.ipynb
+    - CA2.ipynb
+    - kade_output_file.zip Folder
+      
+### 4. Fraud Forecasting (Kade)
 
 - **Goal**: To detect fraud and forecast potential fraud occurrences based on historical trends.
 - **Method**: Monthly and weekly fraud forecasting using time series analysis.

@@ -82,12 +82,11 @@ The dataset consists of 1.29M records and 983 unique credit card numbers over a 
       
 ### 4. Fraud Forecasting (Kade)
 
-- **Goal**: To detect fraud and forecast potential fraud occurrences based on historical trends.
-- **Method**: Monthly and weekly fraud forecasting using time series analysis.
+- **Goal**: To predict the occurrence of fraud charges over time and assess future fraud risks. This forecasting aims to help the organization anticipate and proactively manage fraud by understanding potential future trends in fraudulent activity.
+- **Method**: Collecting historical data on actual fraud charges. Training a model to predict future fraud charges, generating forecasted values along with uncertainty intervals. Comparing actual fraud charge trends with forecasted values to evaluate model accuracy and identify potential anomalies or high-risk periods. Visualizing the results with a line chart showing actual vs. forecasted fraud charges, accompanied by an uncertainty interval to indicate the model's confidence level.
+
 - **Files**:
     - fraudforcasting.ipynb
-    - CorrelationAnalysis.ipynb
-    - CA2.ipynb
     - kade_output_file.zip Folder
 
 ### 5. Lifetime Value (LTV) Forecasting (Simran)

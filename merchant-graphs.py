@@ -213,12 +213,12 @@ pn.serve({
       'quarter_top_10_merchants':plot_merchant_sales_for_quarter_top10,
       'quarter_bottom_10_merchants':plot_merchant_sales_for_quarter_bottom10,
       'avg_sales_merchants_year': plot_sales_month_customer,
-      #'avg_transactions_merchants_year': plot_sales_month_customer,
+      'avg_transactions_merchants_year': plot_sales_month_customer,
       'Ten_Least_selling_merchants_sales_year': plot_merchants_sales_bottom_pvt,
       'Ten_Least_selling_merchants_transactions_year': plot_merchants_cnt_trans_bottom_pvt,
       'Ten_Most_selling_merchants_transactions_year': plot_merchants_sales_top_pvt,
       'Ten_Most_selling_merchants_sales_year': plot_merchants_cnt_trans_top_pvt,
-      'Merchant_sales_quartiles_duration': plt,
+      #'Merchant_sales_quartiles_duration': plt,
       'Statewise_sales_top_10_merchants': plot_merchant_statewise_top10,
       'Statewise_sales_top_10_merchants': plot_merchant_statewise_bottom10
       })

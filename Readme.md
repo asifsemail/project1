@@ -71,7 +71,7 @@ Using these classifications, customers were grouped into four loyalty segments:
 - **Insights**: Visualization of high-value merchants and seasonal spending patterns.
 - **Files**:
     - merchant.ipynb
-    - merchant-graphs.py
+    - merchant-graphs.py (future enhancement): to display the dashboard
     - graphs Folder
 
 ### 3. Age Segment Analysis (Jason)

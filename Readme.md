@@ -126,6 +126,12 @@ Various visualizations were created throughout the project, and all visual outpu
 
 ---
 
+## Presentation
+
+- **Final Presentation - CC Analysis**: both pptx and pdf version can be referred
+
+---
+
 ## Limitations
 
 - **.py file**: The UI demonstration in the Spenderlytics App folder is specific to this project and file.

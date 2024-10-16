@@ -115,7 +115,7 @@ Using these classifications, customers were grouped into four loyalty segments:
 
 ## Visualizations
 
-Various visualizations were created throughout the project, and all visual outputs are saved as `.png` files in multiple folders:  `AK_Output`, `graphs`, `jbrooks_plots_charts`, `kade_output_file.zip`, and `figsfolder`. Key visualizations include:
+Various visualizations were created throughout the project, and all visual outputs are saved as `.png` files in multiple folders:  `AK_Output`, `graphs`, `jbrooks_plots_charts`, `kade_output_file.zip`, and `figsfolder`. All the visualizations are saved in `All_Graphs_Report.pdf` for easy distribution. Key visualizations include:
 
 - **Monthly Transaction Trends**: Time series of total monthly transaction amounts.
 - **Customer Loyalty by State**: Bar plots showing loyalty score by state.

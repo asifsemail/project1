@@ -64,9 +64,9 @@ def mycalc():
     train = mycalc.topltvcustomers_groupby.iloc[:]
     model = ARIMA(train["totalspend"], order=(2, 1, 3))
     model = model.fit()
-    start = 1
-    end = 365
-    pred = model.predict(start=start, end=end, typ="levels")
-    pred.index = pd.date_range(start="2020-06-22", end="2021-06-21")
+    start=1
+    end=538
+    pred=model.predict(start=start,end=end,typ="levels")
+    pred.index=pd.date_range(start="2020-01-01",end="2021-06-21")
     mycalc.ss = pd.concat([mycalc.topltvcustomers_groupby, pred])
     mycalc.ss.rename(columns={"predicted_mean": "predictedspend"}, inplace=True)

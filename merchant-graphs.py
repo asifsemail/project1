@@ -34,7 +34,7 @@ data = None
 def read_csv():
   global data
   if data == None:
-    data = pd.read_csv('data/credit_card_transactions.csv')
+    data = pd.read_csv('Resources/credit_card_transactions.csv')
   return data.copy()
 
 df_transactions = read_csv()
